@@ -2,14 +2,9 @@
 <form>
 	<fields name="params">
 		<fieldset name="custom" label="Custom">
-			<field name="title"
+			<field name="hello_world"
 				type="text"
-				label="Title"
-			/>
-			<field name="text"
-				type="editor"
-				label="Text"
-				filter="safehtml"
+				label="Hello World !"				
 			/>
 		</fieldset>
 	</fields>
