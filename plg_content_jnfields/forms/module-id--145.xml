@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="custom" label="Custom">
+			<field name="image" 
+				type="media" 
+				label="Image"
+			/>
+			<field name="ratio" 
+				type="text" 
+				label="Ratio"
+				default="wide"
+			/>
+			<field name="video" 
+				type="textarea"
+				label="Video Code"
+				filter="raw"
+			/>
+			<field name="poster" 
+				type="media" 
+				label="Poster"
+			/>
+			<field name="link_text" 
+				type="text"
+				label="Link Text"
+			/>
+			<field name="link" 
+				type="text"
+				label="Link"
+			/>
+			
+		</fieldset>
+	</fields>
+</form>

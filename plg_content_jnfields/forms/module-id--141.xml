@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="custom" label="Custom">
+			<field name="link_text" 
+				type="text"
+				label="Link Text"
+			/>
+			<field name="link" 
+				type="text"
+				label="Link"
+			/>
+			
+		</fieldset>
+	</fields>
+</form>

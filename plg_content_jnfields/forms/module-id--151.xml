@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="custom" label="Custom">
+			<field name="image" 
+				type="media" 
+				label="Image"
+			/>
+			<field name="ratio" 
+				type="text" 
+				label="ratio"
+				default="wide"
+			/>
+		</fieldset>
+	</fields>
+</form>

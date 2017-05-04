@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="custom" label="Custom">
+			<field name="spacer1"
+				type="spacer"
+				label=" --- Section 1 --- "
+			/>
+			<field name="title1"
+				type="text"
+				label="Title"
+			/>
+			<field name="text1"
+				type="editor"
+				label="Text"
+				filter="safehtml"
+			/>
+			
+			<field name="spacer2"
+				type="spacer" 
+				label=" --- Vehicle 1 --- "
+			/>
+			<field name="vehicle1-title"
+				type="text"
+				label="Title"
+			/>
+			<field name="vehicle1-image"
+				type="media"
+				label="Image"
+			/>
+			<field name="vehicle1-tab1-title"
+				type="text"
+				label="Tab Title"
+			/>
+			<field name="vehicle1-tab1-content"
+				type="editor"
+				label="Tab Content"
+				filter="safehtml"
+			/>
+			<field name="vehicle1-tab2-title"
+				type="text"
+				label="Tab Title"
+			/>
+			<field name="vehicle1-tab2-content"
+				type="editor"
+				label="Tab Content"
+				filter="safehtml"
+			/>
+			<field name="vehicle1-tab3-title"
+				type="text"
+				label="Tab Title"
+			/>
+			<field name="vehicle1-tab3-content"
+				type="editor"
+				label="Tab Content"
+				filter="safehtml"
+			/>
+			
+			<field name="spacer3"
+				type="spacer" 
+				label=" --- Vehicle 2 --- "
+			/>
+			<field name="vehicle2-title"
+				type="text"
+				label="Title"
+			/>
+			<field name="vehicle2-image"
+				type="media"
+				label="Image"
+			/>
+			<field name="vehicle2-tab1-title"
+				type="text"
+				label="Tab Title"
+			/>
+			<field name="vehicle2-tab1-content"
+				type="editor"
+				label="Tab Content"
+				filter="safehtml"
+			/>
+			<field name="vehicle2-tab2-title"
+				type="text"
+				label="Tab Title"
+			/>
+			<field name="vehicle2-tab2-content"
+				type="editor"
+				label="Tab Content"
+				filter="safehtml"
+			/>
+			<field name="vehicle2-tab3-title"
+				type="text"
+				label="Tab Title"
+			/>
+			<field name="vehicle2-tab3-content"
+				type="editor"
+				label="Tab Content"
+				filter="safehtml"
+			/>
+		</fieldset>
+	</fields>
+</form>

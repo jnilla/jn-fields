@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="attribs">
+		<fieldset name="custom" label="Custom">
+			<field name="text1" 
+				type="text"
+				label="Text1"
+			/>
+			<field name="text2" 
+				type="text"
+				label="Text2"
+			/>
+			<field name="coordinates" 
+				type="text"
+				label="coordinates"
+				default="37.1869584,-123.7641865"
+			/>
+			<field name="link" 
+				type="text"
+				label="Link"
+			/>
+			<field name="link_text" 
+				type="text"
+				default="GET TICKETS"
+				label="Link Text"
+				required="true"
+			/>
+		</fieldset>
+	</fields>
+</form>

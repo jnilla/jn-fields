@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="attribs">
+		<fieldset name="custom" label="Custom">
+			<field name="title"
+				type="text"
+				label="Title"
+			/>
+			<field name="text"
+				type="editor"
+				label="Text"
+				filter="safehtml"
+			/>
+			<field name="video"
+				type="textarea"
+				label="Video"
+				filter="raw"
+			/>
+			<field name="poster"
+				type="media"
+				label="Poster"
+			/>
+			<field name="ratio"
+				type="text"
+				label="Ratio"
+				default="wide"
+			/>
+		</fieldset>
+	</fields>
+</form>

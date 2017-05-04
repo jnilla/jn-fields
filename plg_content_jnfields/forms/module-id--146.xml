@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params">
+		<fieldset name="custom" label="Custom">
+			<field name="logo" 
+				type="media" 
+				label="Logo"
+			/>
+			<field name="fb" 
+				type="text" 
+				label="Facebook"
+			/>
+			<field name="tw" 
+				type="text" 
+				label="Twitter"
+			/>
+			<field name="ig" 
+				type="text" 
+				label="Instagram"
+			/>
+			<field name="yt" 
+				type="text" 
+				label="Youtube"
+			/>
+			
+			
+		</fieldset>
+	</fields>
+</form>

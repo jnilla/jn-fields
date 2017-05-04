@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+	<!-- plugin metadata -->
+	<name>plg_content_jnfields</name>
+	<description>PLG_CONTENT_JNFIELDS_XML_DESCRIPTION</description>
+	<creationDate>Dec 2013</creationDate>
+	<author>opensourcefortress.com</author>
+	<authorEmail>digitalcomputer2142@gmail.com</authorEmail>
+	<authorUrl>http://www.estudioc8.com/</authorUrl>
+	<copyright>Copyright (C) 2013 estudioc8.com. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0.0</version>
+
+	<!-- plugin files -->
+	<files>
+		<filename plugin="jnfields">jnfields.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+		<folder>forms</folder>
+	</files>
+	
+</extension>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
