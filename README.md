@@ -69,7 +69,7 @@ Fork it up bro!
 
 ## Change log
 
-* 2017-06-01
+* V 1.1.0 - 2017-06-01
   * New folder to store custom forms "custom-forms"
   * Now works on frontend and backend
   * Added support to load custom fields for articles, menu items and modules by the core field form name
