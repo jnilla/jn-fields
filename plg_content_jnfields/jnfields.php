@@ -5,8 +5,6 @@
  * @credits     Check credits.html included in this package or repository for a full list of credits
  */
 
-
-
 defined('_JEXEC') or die;
 
 
@@ -109,9 +107,7 @@ class PlgContentJnFields extends JPlugin {
 
 			// load form by form name
 			$form->loadFile("module-form-name=$fname", false);
-			// load form by alias
-			$form->loadFile("module-alias=$alias", false);
-			// load form by name
+			// load form by type
 			$form->loadFile("module-type=$type", false);
 			// load form for all
 			$form->loadFile("module-all", false);
@@ -121,7 +117,7 @@ class PlgContentJnFields extends JPlugin {
 
 	// get extension data by id
 	private function getModuleData($id){
-		if(is_null($id)) return;
+		if(is_null($id) || empty($id)) return;
 
 		$db = JFactory::getDBO();
 		$db->setQuery("
@@ -137,7 +133,7 @@ class PlgContentJnFields extends JPlugin {
 
 	// get article data by id
 	private function getArticleData($id){
-		if(is_null($id)) return;
+		if(is_null($id) || empty($id)) return;
 
 		$db = JFactory::getDBO();
 		$db->setQuery("
@@ -153,7 +149,7 @@ class PlgContentJnFields extends JPlugin {
 
 	// get category data by id
 	private function getCategoryData($id){
-		if(is_null($id)) return;
+		if(is_null($id) || empty($id)) return;
 
 		$db = JFactory::getDBO();
 		$db->setQuery("
@@ -169,7 +165,7 @@ class PlgContentJnFields extends JPlugin {
 
 	// get menu item data by id
 	private function getMenuItemData($id){
-		if(is_null($id)) return;
+		if(is_null($id) || empty($id)) return;
 
 		$db = JFactory::getDBO();
 		$db->setQuery("
