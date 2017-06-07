@@ -16,7 +16,7 @@ Create your custom form files at <code>plugins/content/jnfields/custom-forms/</c
   * load form by form name
     * Format: <code>article-form-name={name}.xml</code>
     * Example: <code>article-form-name=lorem.xml</code>
-    * load form by alias
+  * load form by alias
     * Format: <code>article-alias={alias}.xml</code>
     * Example: <code>article-alias=lorem.xml</code>
   * load form by category path
@@ -50,7 +50,7 @@ Create your custom form files at <code>plugins/content/jnfields/custom-forms/</c
   * load form for all
     * Format: <code>menu-item-all.xml</code>
 * Modules
-   * load form by form name
+  * load form by form name
     * Format: <code>module-form-name={name}.xml</code>
     * Example: <code>module-form-name=lorem.xml</code>
   * load form by type
