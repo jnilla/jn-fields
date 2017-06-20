@@ -1,4 +1,4 @@
-# Jnilla Fields - V 1.1.0
+# Jn-Fields - V 1.1.0
 
 Joomla! content plugin to create custom fields for articles, modules and menu items.
 
